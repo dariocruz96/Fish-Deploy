@@ -33,8 +33,9 @@ app.get("/", (req, res) => {
 });
 
 app.get("/fishes", fishController.list);
-
 app.post("/create-fish", fishController.create);
+app.get("/fishes/delete/:id", fishController.delete);
+
 app.get("/create-fish", (req, res) => {
   res.render("create-fish", { errors: {} });
 });
