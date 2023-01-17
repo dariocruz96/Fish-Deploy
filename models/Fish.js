@@ -3,11 +3,11 @@ const { Schema } = mongoose;
 
 const fishSchema = new Schema(
   {
-    //"#": Number,
-    name: String,
-    sell: Number,
-    where: String,
-    shadow: String,
+    Number: Number,
+    Name: String,
+    Sell: Number,
+    Where: String,
+    Shadow: String,
     //"Total Catches to Unlock": String,
   },
 

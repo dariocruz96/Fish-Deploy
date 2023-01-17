@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Document</title>
+    <title>Fishes</title>
 
     <link
       rel="canonical"
@@ -39,8 +39,43 @@
   </head>
   <body>
     <%- include('common/header') %>
-    <h1>View Page</h1>
 
+    <div class="container">
+      
+      <div class="row col-md-12 col-md-offset-2 custyle mx-auto">
+      <h1 class="mx-auto">Fishes</h1>
+
+      <table class="table table-striped custab">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>#</th>
+            <th>Sell</th>
+            <th>Tastings#</th>
+          </tr>
+
+          <% fishes.forEach(fish => { %>
+
+          <tr>
+            <% console.log(fish.Number);%>
+            <td><%= fish.Name %></td>
+            <td><%= fish.Number %></td>
+            <td><%= fish.Sell %></td>
+
+            <td class="text-center">
+              <a href="#" class="btn btn-info btn-xs"
+                ><span class="glyphicon glyphicon-edit"></span> Edit</a
+              >
+              <a href="#" class="btn btn-danger btn-xs"
+                ><span class="glyphicon glyphicon-remove"></span> Del</a
+              >
+            </td>
+          </tr>
+
+          <% }); %>
+        </thead>
+      </table>
+    </div>
     <%- include('common/footer') -%>
   </body>
 </html>
