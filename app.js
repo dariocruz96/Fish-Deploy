@@ -35,15 +35,16 @@ app.get("/", (req, res) => {
 app.get("/fishes", fishController.list);
 app.post("/create-fish", fishController.create);
 app.get("/fishes/delete/:id", fishController.delete);
+app.get("/fishes/update/:id", fishController.edit);
+app.post("/fishes/update/:id", fishController.update);
 
 app.get("/create-fish", (req, res) => {
   res.render("create-fish", { errors: {} });
 });
 
-app.get("/edit", (req, res) => {
-  res.render("edit");
-});
-
 app.listen(WEB_PORT, () => {
-  console.log(`Example app listening at http://localhost:${WEB_PORT}`);
+  console.log(
+    `Example app listening at http://localhost:${WEB_PORT}`,
+    chalk.green("✓")
+  );
 });

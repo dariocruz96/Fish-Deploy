@@ -27,7 +27,7 @@ exports.update = async (req, res) => {
   try {
     await Fish.updateOne({ _id: id }, req.body);
     const fish = await Fish.findById(id);
-    res.redirect(`/fishes/?message= ${fish.name} as been updated.`);
+    res.redirect(`/fishes/?message= ${fish.Name} as been updated.`);
   } catch (e) {
     if (e.errors) {
       console.log(e.errors);
