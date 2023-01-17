@@ -41,7 +41,13 @@
     <%- include('common/header') %>
 
     <div class="container">
-      
+      <% if (message) { %>
+        <div class = "row">
+        <div class="alert alert-success" role="alert">
+        <%= message %>
+      </div>
+      <% } %>
+    </div>
       <div class="row col-md-12 col-md-offset-2 custyle mx-auto">
       <h1 class="mx-auto">Fishes</h1>
 
@@ -50,23 +56,24 @@
           <tr>
             <th>Name</th>
             <th>#</th>
-            <th>Sell</th>
-            <th>Tastings#</th>
+            <th>Selling price</th>
+            <th>Shadow size</th>
           </tr>
 
           <% fishes.forEach(fish => { %>
 
           <tr>
-            <% console.log(fish.Number);%>
+            
             <td><%= fish.Name %></td>
             <td><%= fish.Number %></td>
             <td><%= fish.Sell %></td>
+            <td><%= fish.Shadow %></td>
 
             <td class="text-center">
-              <a href="#" class="btn btn-info btn-xs"
+              <a href="/fishes/update/<%= fish.id %>" class="btn btn-info btn-xs"
                 ><span class="glyphicon glyphicon-edit"></span> Edit</a
               >
-              <a href="#" class="btn btn-danger btn-xs"
+              <a href="/fishes/delete/<%= fish.id %>" class="btn btn-danger btn-xs"
                 ><span class="glyphicon glyphicon-remove"></span> Del</a
               >
             </td>

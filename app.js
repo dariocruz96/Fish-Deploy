@@ -34,8 +34,9 @@ app.get("/", (req, res) => {
 
 app.get("/fishes", fishController.list);
 
-app.get("/add", (req, res) => {
-  res.render("add");
+app.post("/create-fish", fishController.create);
+app.get("/create-fish", (req, res) => {
+  res.render("create-fish", { errors: {} });
 });
 
 app.get("/edit", (req, res) => {

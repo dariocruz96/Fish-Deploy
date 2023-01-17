@@ -53,7 +53,12 @@ exports.edit = async (req, res) => {
 };
 
 exports.create = async (req, res) => {
-  let fish = new Fish({ name: req.body.name, price: req.body.price });
+  let fish = new Fish({
+    Name: req.body.name,
+    Number: req.body.number,
+    Sell: req.body.price,
+    Shadow: req.body.shadow,
+  });
   try {
     await fish.save();
     res.redirect(`/fishes/?message=${req.body.name} has been created`);
