@@ -6,6 +6,7 @@ const fishSchema = new Schema(
     Number: Number,
     Name: String,
     Sell: Number,
+    "Spawn Rates": String,
     Where: String,
     Shadow: String,
     //"Total Catches to Unlock": String,
