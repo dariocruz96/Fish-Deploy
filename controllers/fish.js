@@ -16,6 +16,7 @@ exports.list = async (req, res) => {
       totalFishes,
       message: req.query?.message,
       limit,
+      page,
     });
   } catch (e) {
     res.status(404).send({ message: "could not list fishes" });

@@ -53,15 +53,14 @@
         <div class = "row">
         <div class="alert alert-success" role="alert">
         <%= message %>
-      </div>
+      
       <% } %>
     </div>
       <div class="row col-md-12 col-md-offset-2 custyle mx-auto">
+        <h1 class="mx-auto">🐟 Fishes 🐟</h1>
+        
 
-      <a href="/create-fish/"><button type="button" class="btn btn-primary">Create a new fish</button></a> 
-      
-      <h1 class="mx-auto">Fishes</h1>
-
+      </div>
       <table class="table table-striped custab">
         <thead>
           <tr>
@@ -69,6 +68,7 @@
             <th>#</th>
             <th>Selling price</th>
             <th>Shadow size</th>
+            <th class="text-center">  <a href="/create-fish/"><button type="button" class="btn btn-primary ">Create a new fish</button></a> </th>
           </tr>
           
 
@@ -97,12 +97,35 @@
     </div>
     <nav aria-label="Page navigation example">
       <div class="row justify-content-md-center">
+        <% console.log(page); %>
         
-        <% for (let i = 1; i <= totalFishes/10; i++) { %>
-
-        <div class="page-item"><a class="page-link" href="/fishes?page=<%= i %>&limit=10"><%= i %></a></div>
         
-        <% } %>
+        <%
+        if (isNaN(page)){
+          page=1;
+        };
+        if (isNaN(limit)){
+          limit=10;
+        };
+        
+        if (page-1>0){
+        %>
+          <div class="page-item"><a class="page-link" href="/fishes?page=<%= page-1%>&limit=<%= limit%>">Previous</a></div>
+          <%};%>
+        
+        <%
+        
+        
+        for (let i = 1; i <= totalFishes/limit; i++) { %>
+          
+        <div class="page-item"><a class="page-link" href="/fishes?page=<%= i %>&limit=<%= limit%>"><%= i %></a></div>
+        
+        <% }; 
+        
+        if ( (page+1<=(totalFishes/limit)) || (isNaN(page)) ){
+          %>
+            <div class="page-item"><a class="page-link" href="/fishes?page=<%= page+1%>&limit=<%= limit%>">Next</a></div>
+            <%};%>
         
         
         
@@ -113,7 +136,8 @@
           <form method="POST">
             <div class="form-group">
               <label for="cars">List size:</label>
-              <%= limit%>
+
+              
                 <select onchange="onLimitChange(this.value)" id="limit" value=<%= limit%> name="limit">
                   <option value=""></option>
                   <option value="5">5</option>
