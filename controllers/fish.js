@@ -70,6 +70,7 @@ exports.create = async (req, res) => {
     Name: req.body.name,
     Number: req.body.number,
     Sell: req.body.price,
+    Spawn: req.body.spawn,
     Shadow: req.body.shadow,
   });
   try {
