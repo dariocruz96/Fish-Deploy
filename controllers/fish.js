@@ -1,10 +1,22 @@
 const Fish = require("../models/Fish");
 
 exports.list = async (req, res) => {
+  const limit = parseInt(req.query.limit); // Make sure to parse the limit to number
   try {
-    const fishes = await Fish.find({});
+    const page = parseInt(req.query.page); // Make sure to parse the skip to number
+    const skip = (page - 1) * limit;
+    const totalFishes = await Fish.find({}).count();
+    const fishes = await Fish.find({ page })
+      .sort({ Name: 1 })
+      .skip(skip)
+      .limit(limit);
 
-    res.render("fishes", { fishes: fishes, message: req.query?.message });
+    res.render("fishes", {
+      fishes: fishes,
+      totalFishes,
+      message: req.query?.message,
+      limit,
+    });
   } catch (e) {
     res.status(404).send({ message: "could not list fishes" });
   }

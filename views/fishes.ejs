@@ -20,6 +20,14 @@
       crossorigin="anonymous"
     />
 
+    <script>
+      function onLimitChange(limit) {
+          location.replace(`/fishes?limit=${limit}`);
+          return limit;
+      }
+  </script>
+
+
     <style>
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -62,6 +70,7 @@
             <th>Selling price</th>
             <th>Shadow size</th>
           </tr>
+          
 
           <% fishes.forEach(fish => { %>
 
@@ -87,13 +96,34 @@
       </table>
     </div>
     <nav aria-label="Page navigation example">
-      <ul class="pagination">
-        <li class="page-item"><a class="page-link" href="#">Previous</a></li>
-        <li class="page-item"><a class="page-link" href="tastings?page=1&limit=10">1</a></li>
-        <li class="page-item"><a class="page-link" href="tastings?page=2&limit=10">2</a></li>
-        <li class="page-item"><a class="page-link" href="tastings?page=3&limit=10">3</a></li>
-        <li class="page-item"><a class="page-link" href="#">Next</a></li>
-      </ul>
+      <div class="row justify-content-md-center">
+        
+        <% for (let i = 1; i <= totalFishes/10; i++) { %>
+
+        <div class="page-item"><a class="page-link" href="/fishes?page=<%= i %>&limit=10"><%= i %></a></div>
+        
+        <% } %>
+        
+        
+        
+        
+        </div>
+      <div class="row justify-content-md-center">
+        <div class="col-">
+          <form method="POST">
+            <div class="form-group">
+              <label for="cars">List size:</label>
+              <%= limit%>
+                <select onchange="onLimitChange(this.value)" id="limit" value=<%= limit%> name="limit">
+                  <option value=""></option>
+                  <option value="5">5</option>
+                  <option value="10">10</option>
+                  <option value="15">15</option>
+                  <option value="20">20</option>
+                </select>
+          </form>
+        </div>
+      </div>
     </nav>
     <%- include('common/footer') -%>
   </body>
