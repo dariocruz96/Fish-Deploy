@@ -8,7 +8,7 @@
     },
     "Shadow": "Small",
     "Total Catches to Unlock": 0,
-    "Spawn Rates": "2-5",
+    "SpawnRates": "2-5",
     "Rain": {
       "Snow Catch Up": "No"
     },
@@ -55,7 +55,7 @@
     },
     "Shadow": "Small",
     "Total Catches to Unlock": 20,
-    "Spawn Rates": "2-5",
+    "SpawnRates": "2-5",
     "Rain": {
       "Snow Catch Up": "No"
     },
@@ -102,7 +102,7 @@
     },
     "Shadow": "XX-Large",
     "Total Catches to Unlock": 50,
-    "Spawn Rates": "1",
+    "SpawnRates": "1",
     "Rain": {
       "Snow Catch Up": "Yes"
     },
@@ -149,7 +149,7 @@
     },
     "Shadow": "Large",
     "Total Catches to Unlock": 50,
-    "Spawn Rates": "1-2",
+    "SpawnRates": "1-2",
     "Rain": {
       "Snow Catch Up": "No"
     },
@@ -196,7 +196,7 @@
     },
     "Shadow": "Medium",
     "Total Catches to Unlock": 20,
-    "Spawn Rates": "3-5",
+    "SpawnRates": "3-5",
     "Rain": {
       "Snow Catch Up": "No"
     },
@@ -243,7 +243,7 @@
     },
     "Shadow": "Small",
     "Total Catches to Unlock": 100,
-    "Spawn Rates": "1",
+    "SpawnRates": "1",
     "Rain": {
       "Snow Catch Up": "No"
     },
@@ -290,7 +290,7 @@
     },
     "Shadow": "Small",
     "Total Catches to Unlock": 20,
-    "Spawn Rates": "1-4",
+    "SpawnRates": "1-4",
     "Rain": {
       "Snow Catch Up": "No"
     },
@@ -337,7 +337,7 @@
     },
     "Shadow": "X-Small",
     "Total Catches to Unlock": 0,
-    "Spawn Rates": "12-17",
+    "SpawnRates": "12-17",
     "Rain": {
       "Snow Catch Up": "No"
     },
@@ -384,7 +384,7 @@
     },
     "Shadow": "Large",
     "Total Catches to Unlock": 0,
-    "Spawn Rates": "4-12",
+    "SpawnRates": "4-12",
     "Rain": {
       "Snow Catch Up": "No"
     },
@@ -431,7 +431,7 @@
     },
     "Shadow": "Medium",
     "Total Catches to Unlock": 20,
-    "Spawn Rates": "5",
+    "SpawnRates": "5",
     "Rain": {
       "Snow Catch Up": "No"
     },
@@ -478,7 +478,7 @@
     },
     "Shadow": "XX-Large",
     "Total Catches to Unlock": 50,
-    "Spawn Rates": "1-2",
+    "SpawnRates": "1-2",
     "Rain": {
       "Snow Catch Up": "Yes"
     },
@@ -525,7 +525,7 @@
     },
     "Shadow": "Small",
     "Total Catches to Unlock": 0,
-    "Spawn Rates": "6-10",
+    "SpawnRates": "6-10",
     "Rain": {
       "Snow Catch Up": "No"
     },
@@ -572,7 +572,7 @@
     },
     "Shadow": "Small",
     "Total Catches to Unlock": 0,
-    "Spawn Rates": "4-5",
+    "SpawnRates": "4-5",
     "Rain": {
       "Snow Catch Up": "No"
     },
@@ -619,7 +619,7 @@
     },
     "Shadow": "Large",
     "Total Catches to Unlock": 0,
-    "Spawn Rates": "3-9",
+    "SpawnRates": "3-9",
     "Rain": {
       "Snow Catch Up": "No"
     },
@@ -666,7 +666,7 @@
     },
     "Shadow": "Large",
     "Total Catches to Unlock": 0,
-    "Spawn Rates": "6-8",
+    "SpawnRates": "6-8",
     "Rain": {
       "Snow Catch Up": "No"
     },
@@ -713,7 +713,7 @@
     },
     "Shadow": "Medium",
     "Total Catches to Unlock": 20,
-    "Spawn Rates": "1-4",
+    "SpawnRates": "1-4",
     "Rain": {
       "Snow Catch Up": "No"
     },
@@ -760,7 +760,7 @@
     },
     "Shadow": "Medium",
     "Total Catches to Unlock": 0,
-    "Spawn Rates": "3-9",
+    "SpawnRates": "3-9",
     "Rain": {
       "Snow Catch Up": "No"
     },
@@ -807,7 +807,7 @@
     },
     "Shadow": "X-Small",
     "Total Catches to Unlock": 0,
-    "Spawn Rates": "5-6",
+    "SpawnRates": "5-6",
     "Rain": {
       "Snow Catch Up": "No"
     },
@@ -854,7 +854,7 @@
     },
     "Shadow": "XX-Large",
     "Total Catches to Unlock": 100,
-    "Spawn Rates": "1-2",
+    "SpawnRates": "1-2",
     "Rain": {
       "Snow Catch Up": "Yes"
     },
@@ -901,7 +901,7 @@
     },
     "Shadow": "Small",
     "Total Catches to Unlock": 0,
-    "Spawn Rates": "4-12",
+    "SpawnRates": "4-12",
     "Rain": {
       "Snow Catch Up": "No"
     },
@@ -948,7 +948,7 @@
     },
     "Shadow": "Small",
     "Total Catches to Unlock": 0,
-    "Spawn Rates": "4-12",
+    "SpawnRates": "4-12",
     "Rain": {
       "Snow Catch Up": "No"
     },
@@ -995,7 +995,7 @@
     },
     "Shadow": "Medium",
     "Total Catches to Unlock": 0,
-    "Spawn Rates": "11-14",
+    "SpawnRates": "11-14",
     "Rain": {
       "Snow Catch Up": "No"
     },
@@ -1042,7 +1042,7 @@
     },
     "Shadow": "Medium",
     "Total Catches to Unlock": 0,
-    "Spawn Rates": "3-10",
+    "SpawnRates": "3-10",
     "Rain": {
       "Snow Catch Up": "No"
     },
@@ -1089,7 +1089,7 @@
     },
     "Shadow": "X-Large",
     "Total Catches to Unlock": 100,
-    "Spawn Rates": "1-2",
+    "SpawnRates": "1-2",
     "Rain": {
       "Snow Catch Up": "No"
     },
@@ -1136,7 +1136,7 @@
     },
     "Shadow": "Large",
     "Total Catches to Unlock": 20,
-    "Spawn Rates": "6",
+    "SpawnRates": "6",
     "Rain": {
       "Snow Catch Up": "No"
     },
@@ -1183,7 +1183,7 @@
     },
     "Shadow": "Small",
     "Total Catches to Unlock": 0,
-    "Spawn Rates": "2-5",
+    "SpawnRates": "2-5",
     "Rain": {
       "Snow Catch Up": "No"
     },
@@ -1230,7 +1230,7 @@
     },
     "Shadow": "Small",
     "Total Catches to Unlock": 0,
-    "Spawn Rates": "7-9",
+    "SpawnRates": "7-9",
     "Rain": {
       "Snow Catch Up": "No"
     },
@@ -1277,7 +1277,7 @@
     },
     "Shadow": "X-Large",
     "Total Catches to Unlock": 50,
-    "Spawn Rates": "1-2",
+    "SpawnRates": "1-2",
     "Rain": {
       "Snow Catch Up": "No"
     },
@@ -1324,7 +1324,7 @@
     },
     "Shadow": "Large",
     "Total Catches to Unlock": 50,
-    "Spawn Rates": "2",
+    "SpawnRates": "2",
     "Rain": {
       "Snow Catch Up": "No"
     },
@@ -1371,7 +1371,7 @@
     },
     "Shadow": "X-Large",
     "Total Catches to Unlock": 20,
-    "Spawn Rates": "1",
+    "SpawnRates": "1",
     "Rain": {
       "Snow Catch Up": "No"
     },
@@ -1418,7 +1418,7 @@
     },
     "Shadow": "Medium",
     "Total Catches to Unlock": 100,
-    "Spawn Rates": "1",
+    "SpawnRates": "1",
     "Rain": {
       "Snow Catch Up": "No"
     },
@@ -1465,7 +1465,7 @@
     },
     "Shadow": "X-Small",
     "Total Catches to Unlock": 0,
-    "Spawn Rates": "1-4",
+    "SpawnRates": "1-4",
     "Rain": {
       "Snow Catch Up": "No"
     },
@@ -1512,7 +1512,7 @@
     },
     "Shadow": "Large w/Fin",
     "Total Catches to Unlock": 50,
-    "Spawn Rates": "2",
+    "SpawnRates": "2",
     "Rain": {
       "Snow Catch Up": "Yes"
     },
@@ -1559,7 +1559,7 @@
     },
     "Shadow": "X-Small",
     "Total Catches to Unlock": 0,
-    "Spawn Rates": "2-3",
+    "SpawnRates": "2-3",
     "Rain": {
       "Snow Catch Up": "No"
     },
@@ -1606,7 +1606,7 @@
     },
     "Shadow": "Large w/Fin",
     "Total Catches to Unlock": 20,
-    "Spawn Rates": "1",
+    "SpawnRates": "1",
     "Rain": {
       "Snow Catch Up": "Yes"
     },
@@ -1653,7 +1653,7 @@
     },
     "Shadow": "Small",
     "Total Catches to Unlock": 0,
-    "Spawn Rates": "14-21",
+    "SpawnRates": "14-21",
     "Rain": {
       "Snow Catch Up": "No"
     },
@@ -1700,7 +1700,7 @@
     },
     "Shadow": "X-Small",
     "Total Catches to Unlock": 0,
-    "Spawn Rates": "3-4",
+    "SpawnRates": "3-4",
     "Rain": {
       "Snow Catch Up": "No"
     },
@@ -1747,7 +1747,7 @@
     },
     "Shadow": "X-Large",
     "Total Catches to Unlock": 20,
-    "Spawn Rates": "5",
+    "SpawnRates": "5",
     "Rain": {
       "Snow Catch Up": "No"
     },
@@ -1794,7 +1794,7 @@
     },
     "Shadow": "Large",
     "Total Catches to Unlock": 20,
-    "Spawn Rates": "1-4",
+    "SpawnRates": "1-4",
     "Rain": {
       "Snow Catch Up": "No"
     },
@@ -1841,7 +1841,7 @@
     },
     "Shadow": "Small",
     "Total Catches to Unlock": 0,
-    "Spawn Rates": "12-16",
+    "SpawnRates": "12-16",
     "Rain": {
       "Snow Catch Up": "No"
     },
@@ -1888,7 +1888,7 @@
     },
     "Shadow": "X-Large",
     "Total Catches to Unlock": 50,
-    "Spawn Rates": "1",
+    "SpawnRates": "1",
     "Rain": {
       "Snow Catch Up": "Yes"
     },
@@ -1935,7 +1935,7 @@
     },
     "Shadow": "Small",
     "Total Catches to Unlock": 20,
-    "Spawn Rates": "3-5",
+    "SpawnRates": "3-5",
     "Rain": {
       "Snow Catch Up": "No"
     },
@@ -1982,7 +1982,7 @@
     },
     "Shadow": "Long",
     "Total Catches to Unlock": 20,
-    "Spawn Rates": "2",
+    "SpawnRates": "2",
     "Rain": {
       "Snow Catch Up": "No"
     },
@@ -2029,7 +2029,7 @@
     },
     "Shadow": "XX-Large",
     "Total Catches to Unlock": 50,
-    "Spawn Rates": "1",
+    "SpawnRates": "1",
     "Rain": {
       "Snow Catch Up": "Yes"
     },
@@ -2076,7 +2076,7 @@
     },
     "Shadow": "X-Small",
     "Total Catches to Unlock": 0,
-    "Spawn Rates": "2-3",
+    "SpawnRates": "2-3",
     "Rain": {
       "Snow Catch Up": "No"
     },
@@ -2123,7 +2123,7 @@
     },
     "Shadow": "X-Small",
     "Total Catches to Unlock": 20,
-    "Spawn Rates": "2",
+    "SpawnRates": "2",
     "Rain": {
       "Snow Catch Up": "No"
     },
@@ -2170,7 +2170,7 @@
     },
     "Shadow": "XX-Large",
     "Total Catches to Unlock": 50,
-    "Spawn Rates": "1",
+    "SpawnRates": "1",
     "Rain": {
       "Snow Catch Up": "Yes"
     },
@@ -2217,7 +2217,7 @@
     },
     "Shadow": "Large w/Fin",
     "Total Catches to Unlock": 20,
-    "Spawn Rates": "1",
+    "SpawnRates": "1",
     "Rain": {
       "Snow Catch Up": "Yes"
     },
@@ -2264,7 +2264,7 @@
     },
     "Shadow": "X-Large",
     "Total Catches to Unlock": 0,
-    "Spawn Rates": "4-6",
+    "SpawnRates": "4-6",
     "Rain": {
       "Snow Catch Up": "No"
     },
@@ -2311,7 +2311,7 @@
     },
     "Shadow": "X-Small",
     "Total Catches to Unlock": 0,
-    "Spawn Rates": "6-9",
+    "SpawnRates": "6-9",
     "Rain": {
       "Snow Catch Up": "No"
     },
@@ -2358,7 +2358,7 @@
     },
     "Shadow": "X-Large",
     "Total Catches to Unlock": 20,
-    "Spawn Rates": "1-2",
+    "SpawnRates": "1-2",
     "Rain": {
       "Snow Catch Up": "No"
     },
@@ -2405,7 +2405,7 @@
     },
     "Shadow": "Small",
     "Total Catches to Unlock": 20,
-    "Spawn Rates": "1-3",
+    "SpawnRates": "1-3",
     "Rain": {
       "Snow Catch Up": "No"
     },
@@ -2452,7 +2452,7 @@
     },
     "Shadow": "Small",
     "Total Catches to Unlock": 0,
-    "Spawn Rates": "18-20",
+    "SpawnRates": "18-20",
     "Rain": {
       "Snow Catch Up": "No"
     },
@@ -2499,7 +2499,7 @@
     },
     "Shadow": "X-Small",
     "Total Catches to Unlock": 0,
-    "Spawn Rates": "1-2",
+    "SpawnRates": "1-2",
     "Rain": {
       "Snow Catch Up": "No"
     },
@@ -2546,7 +2546,7 @@
     },
     "Shadow": "Medium",
     "Total Catches to Unlock": 0,
-    "Spawn Rates": "7-8",
+    "SpawnRates": "7-8",
     "Rain": {
       "Snow Catch Up": "No"
     },
@@ -2593,7 +2593,7 @@
     },
     "Shadow": "X-Small",
     "Total Catches to Unlock": 0,
-    "Spawn Rates": "2-3",
+    "SpawnRates": "2-3",
     "Rain": {
       "Snow Catch Up": "No"
     },
@@ -2640,7 +2640,7 @@
     },
     "Shadow": "Small",
     "Total Catches to Unlock": 20,
-    "Spawn Rates": "1-2",
+    "SpawnRates": "1-2",
     "Rain": {
       "Snow Catch Up": "No"
     },
@@ -2687,7 +2687,7 @@
     },
     "Shadow": "X-Large",
     "Total Catches to Unlock": 20,
-    "Spawn Rates": "2",
+    "SpawnRates": "2",
     "Rain": {
       "Snow Catch Up": "No"
     },
@@ -2734,7 +2734,7 @@
     },
     "Shadow": "Large",
     "Total Catches to Unlock": 0,
-    "Spawn Rates": "5-7",
+    "SpawnRates": "5-7",
     "Rain": {
       "Snow Catch Up": "No"
     },
@@ -2781,7 +2781,7 @@
     },
     "Shadow": "Long",
     "Total Catches to Unlock": 0,
-    "Spawn Rates": "2",
+    "SpawnRates": "2",
     "Rain": {
       "Snow Catch Up": "No"
     },
@@ -2828,7 +2828,7 @@
     },
     "Shadow": "Large",
     "Total Catches to Unlock": 20,
-    "Spawn Rates": "1",
+    "SpawnRates": "1",
     "Rain": {
       "Snow Catch Up": "No"
     },
@@ -2875,7 +2875,7 @@
     },
     "Shadow": "Large",
     "Total Catches to Unlock": 0,
-    "Spawn Rates": "20",
+    "SpawnRates": "20",
     "Rain": {
       "Snow Catch Up": "No"
     },
@@ -2922,7 +2922,7 @@
     },
     "Shadow": "Large w/Fin",
     "Total Catches to Unlock": 50,
-    "Spawn Rates": "1",
+    "SpawnRates": "1",
     "Rain": {
       "Snow Catch Up": "No"
     },
@@ -2969,7 +2969,7 @@
     },
     "Shadow": "X-Large",
     "Total Catches to Unlock": 0,
-    "Spawn Rates": "11-18",
+    "SpawnRates": "11-18",
     "Rain": {
       "Snow Catch Up": "No"
     },
@@ -3016,7 +3016,7 @@
     },
     "Shadow": "X-Small",
     "Total Catches to Unlock": 0,
-    "Spawn Rates": "10-11",
+    "SpawnRates": "10-11",
     "Rain": {
       "Snow Catch Up": "No"
     },
@@ -3063,7 +3063,7 @@
     },
     "Shadow": "X-Small",
     "Total Catches to Unlock": 0,
-    "Spawn Rates": "5-7",
+    "SpawnRates": "5-7",
     "Rain": {
       "Snow Catch Up": "No"
     },
@@ -3110,7 +3110,7 @@
     },
     "Shadow": "Large",
     "Total Catches to Unlock": 0,
-    "Spawn Rates": "2-3",
+    "SpawnRates": "2-3",
     "Rain": {
       "Snow Catch Up": "No"
     },
@@ -3157,7 +3157,7 @@
     },
     "Shadow": "Large",
     "Total Catches to Unlock": 20,
-    "Spawn Rates": "4",
+    "SpawnRates": "4",
     "Rain": {
       "Snow Catch Up": "No"
     },
@@ -3204,7 +3204,7 @@
     },
     "Shadow": "Medium",
     "Total Catches to Unlock": 0,
-    "Spawn Rates": "7-10",
+    "SpawnRates": "7-10",
     "Rain": {
       "Snow Catch Up": "No"
     },
@@ -3251,7 +3251,7 @@
     },
     "Shadow": "X-Large",
     "Total Catches to Unlock": 100,
-    "Spawn Rates": "1",
+    "SpawnRates": "1",
     "Rain": {
       "Snow Catch Up": "No"
     },
@@ -3298,7 +3298,7 @@
     },
     "Shadow": "XX-Large",
     "Total Catches to Unlock": 20,
-    "Spawn Rates": "1-4",
+    "SpawnRates": "1-4",
     "Rain": {
       "Snow Catch Up": "Yes"
     },
@@ -3345,7 +3345,7 @@
     },
     "Shadow": "Medium w/Fin",
     "Total Catches to Unlock": 20,
-    "Spawn Rates": "2",
+    "SpawnRates": "2",
     "Rain": {
       "Snow Catch Up": "No"
     },
@@ -3392,7 +3392,7 @@
     },
     "Shadow": "Small",
     "Total Catches to Unlock": 0,
-    "Spawn Rates": "2",
+    "SpawnRates": "2",
     "Rain": {
       "Snow Catch Up": "No"
     },
@@ -3439,7 +3439,7 @@
     },
     "Shadow": "Medium",
     "Total Catches to Unlock": 0,
-    "Spawn Rates": "5-10",
+    "SpawnRates": "5-10",
     "Rain": {
       "Snow Catch Up": "No"
     },
@@ -3486,7 +3486,7 @@
     },
     "Shadow": "X-Small",
     "Total Catches to Unlock": 0,
-    "Spawn Rates": "5-6",
+    "SpawnRates": "5-6",
     "Rain": {
       "Snow Catch Up": "No"
     },
@@ -3533,7 +3533,7 @@
     },
     "Shadow": "Medium",
     "Total Catches to Unlock": 0,
-    "Spawn Rates": "7-9",
+    "SpawnRates": "7-9",
     "Rain": {
       "Snow Catch Up": "No"
     },
@@ -3580,7 +3580,7 @@
     },
     "Shadow": "XX-Large",
     "Total Catches to Unlock": 50,
-    "Spawn Rates": "2",
+    "SpawnRates": "2",
     "Rain": {
       "Snow Catch Up": "Yes"
     },
@@ -3627,7 +3627,7 @@
     },
     "Shadow": "Large w/Fin",
     "Total Catches to Unlock": 50,
-    "Spawn Rates": "1",
+    "SpawnRates": "1",
     "Rain": {
       "Snow Catch Up": "Yes"
     },
@@ -3674,7 +3674,7 @@
     },
     "Shadow": "Medium",
     "Total Catches to Unlock": 0,
-    "Spawn Rates": "7-10",
+    "SpawnRates": "7-10",
     "Rain": {
       "Snow Catch Up": "No"
     },
@@ -3721,7 +3721,7 @@
     },
     "Shadow": "Medium",
     "Total Catches to Unlock": 0,
-    "Spawn Rates": "6-8",
+    "SpawnRates": "6-8",
     "Rain": {
       "Snow Catch Up": "No"
     },

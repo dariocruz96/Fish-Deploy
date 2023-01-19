@@ -53,9 +53,8 @@
         <div class = "row">
         <div class="alert alert-success" role="alert">
         <%= message %>
-      
+        </div>
       <% } %>
-    </div>
       <div class="row col-md-12 col-md-offset-2 custyle mx-auto">
         <h1 class="mx-auto">🐟 Fishes 🐟</h1>
         
@@ -67,6 +66,7 @@
             <th>Name</th>
             <th>#</th>
             <th>Selling price</th>
+            <th>Spawn rate</th>
             <th>Shadow size</th>
             <th class="text-center">  <a href="/create-fish/"><button type="button" class="btn btn-primary ">Create a new fish</button></a> </th>
           </tr>
@@ -79,6 +79,7 @@
             <td><%= fish.Name %></td>
             <td><%= fish.Number %></td>
             <td><%= fish.Sell %></td>
+            <td><%= fish.SpawnRates %></td>
             <td><%= fish.Shadow %></td>
 
             <td class="text-center">

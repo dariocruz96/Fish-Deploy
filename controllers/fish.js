@@ -70,8 +70,10 @@ exports.create = async (req, res) => {
     Name: req.body.name,
     Number: req.body.number,
     Sell: req.body.price,
+    SpawnRates: [req.body.spawn],
     Shadow: req.body.shadow,
   });
+
   try {
     await fish.save();
     res.redirect(`/fishes/?message=${req.body.name} has been created`);
