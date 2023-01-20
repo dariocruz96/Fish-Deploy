@@ -19,7 +19,6 @@ const fishSchema = new Schema(
     Shadow: String,
     //"Total Catches to Unlock": String,
   },
-
   { timestamps: false }
 );
 
