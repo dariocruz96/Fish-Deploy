@@ -3,9 +3,17 @@ const { Schema } = mongoose;
 
 const fishSchema = new Schema(
   {
-    Number: Number,
-    Name: String,
-    Sell: Number,
+    Number: {
+      type: Number,
+    },
+    Name: {
+      type: String,
+      required: [true, "Name is required"],
+    },
+    Sell: {
+      type: Number,
+      required: [true, "Price is required"],
+    },
     SpawnRates: [String],
     Where: String,
     Shadow: String,
