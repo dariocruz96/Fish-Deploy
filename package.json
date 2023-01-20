@@ -98,7 +98,7 @@
   "scripts": {
     "dev": "nodemon app.js",
     "start": "node app.js",
-    "seedProduction": "cross-env NODE_ENV=production node seeder.js",
+    "seedProduction": "node seederProd.js",
     "seed": "node seeder.js"
   },
   "repository": {
